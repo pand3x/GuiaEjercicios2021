@@ -5,7 +5,6 @@ import java.util.Scanner;
 public class PracticaJava {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
         ejercicio4();
 	}
 	private static void ejercicio4()
@@ -50,5 +49,7 @@ public class PracticaJava {
 			}
     catch(Exception ex)
 		{
+    	System.out.println("verifique los datos ingresados");
 		}
+	}}
 	
