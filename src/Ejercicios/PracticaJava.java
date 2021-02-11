@@ -16,6 +16,8 @@ public class PracticaJava {
 		float promedio;
 		
 		Scanner sc = new Scanner(System.in);
+		try 
+		{
 		
 		
 		
@@ -45,9 +47,8 @@ public class PracticaJava {
 		{
 			System.out.println("no se pudo calcular, verifique las notas ingresadas");
 		}
-		
-}
-    
+			}
+    catch(Exception ex)
+		{
+		}
 	
-    }
-
