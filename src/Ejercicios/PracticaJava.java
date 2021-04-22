@@ -3,53 +3,49 @@ package Ejercicios;
 import java.util.Scanner;
 
 public class PracticaJava {
+	
 
 	public static void main(String[] args) {
-        ejercicio4();
-	}
-	private static void ejercicio4()
-	{
-		short nota1 = 0;
-		short nota2 = 0;
-		short nota3 = 0;
-		float promedio;
-		
-		Scanner sc = new Scanner(System.in);
-		try 
-		{
-		
-		
-		
-		System.out.println("Ingrese un numero del 1 al 10");
-		nota1 = (short) sc.nextInt();
-		
-		System.out.println("Ingrese otro numero del 1 al 10");
-		nota2 = (short) sc.nextInt();
-		
-		System.out.println("Ingrese otro numero del 1 al 10");
-		nota3 = (short) sc.nextInt();
-		
-		if ((nota1 >=0) && (nota1 <= 10) && (nota2 >=0) && (nota2 <= 10) && (nota3 >= 0) && (nota3 <= 10))
-		{
-			promedio = (nota1 + nota2 + nota3) / 3;
-			
-			if ((nota1 >= 4) && (nota2 >= 4) && (nota3 >=4) && (promedio >=4))
+
+			//Guia1 guia1 = new Guia1();
+			//Guia2 guia2 = new Guia2();
+			Guiaintegradores guiaI = new Guiaintegradores();
+			try
 			{
-				System.out.println("El alumno esta aprobado");
+//				Guia1.trivia();
+//				Guia1.ejercicio2GUI();
+//				guia1.ejercicio1();
+//				Guia1.ejercicio1GUI();
+//				guia1.ejercicio2();
+//				guia1.ejercicio3();
+//				guia1.ejercicio6();
+//				guia1.ejercicio6Bis();
+//				guia1.ejercicio7();
+//				guia1.ejercicio8();
+//				guia1.ejercicio9();
+//				guia1.ejercicio10();
+//				guia1.ejercicio13();
+//				Guia1.ejercicio12();
+//				guia1.ejercicio14();
+//				guia2.factorial(10);
+//				guia2.mcd(120, 60);
+//				guia2.ejercicio1_g2(0, 0, 0);
+//				guia2.ejercicio2_g2(0, 0, 0);
+//				guiaI.palabrasYcaracteres();
+//				guiaI.ejercicio1_GI();
+//				guiaI.ejercicio3_GI();
+//				guiaI.ejercicio4_GI();
+				guiaI.ejerciciotateti();
+				
 			}
-			else
+			catch(Exception ex)
 			{
-				System.out.println("El alumno esta desaprobado");
+				System.out.println("ocurrio un error inesperado, verifique los datos");
 			}
 		}
-		else
-		{
-			System.out.println("no se pudo calcular, verifique las notas ingresadas");
-		}
-			}
-    catch(Exception ex)
-		{
-    	System.out.println("verifique los datos ingresados");
-		}
-	}}
+
+		
+}		
+		
+	
 	
